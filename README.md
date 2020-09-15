@@ -11,3 +11,5 @@ Two R scripts are provided in this repository, along with summarised data used f
 **novel_comms_neptune.R** shows the complete data analysis pathway, as well as main and supplementary analyses, but will require Neptune Sandbox exports for calcareous nannoplankton, foraminifera, radiolarians and diatoms. This script requires respository sub-folders etc as per the analysis script above.
 
 We have also provided variants of functions that run all main text analyses using Bayesian hierarchical models, which provided very similar results to the frequentist models we included in the published manuscript.
+
+[![DOI](https://zenodo.org/badge/288867070.svg)](https://zenodo.org/badge/latestdoi/288867070)
