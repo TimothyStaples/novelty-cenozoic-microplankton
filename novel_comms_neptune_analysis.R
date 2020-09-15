@@ -9,13 +9,14 @@
 rm(list=ls())
 
 # set working directory to folder where this file is located
-setwd("/home/timothy/Dropbox/Tim/Post-doc/Research projects/Upload_projects/novelty-cenozoic-microplankton")
+setwd("PATH/TO/THIS/FILE")
 
 # functions ####
 
 # source functions from 'functions' sub-folder
 sapply(list.files("./functions", pattern="\\.R", full.names=TRUE), source)
 
+# load required packages and install them if needed
 package.loader(c("mgcv", "vegan", "lme4", "nlme", 
                  "DHARMa", "merTools", "shape",
                  "multcomp", "maptools", "sp", 
